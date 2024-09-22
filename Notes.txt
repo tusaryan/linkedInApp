@@ -1,0 +1,5 @@
+we store links of images in our DB
+
+to store images as it is use third party services like:
+https://cloudinary.com/
+AWS S3

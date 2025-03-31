@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Setter
 @Table(name = "post_likes")
 public class PostLike {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -1,0 +1,27 @@
+spring.application.name: uploader-service
+
+server.servlet.context-path: /uploads
+server.port: 9050
+eureka.client.service-url.defaultZone: http://localhost:8761/eureka
+
+cloudinary:
+  cloud-name:
+  api-key:
+  api-secret:
+
+gcs:
+  bucket-name: cs-linkedin-prod
+  access-account: >
+    {
+      "type": "service_account",
+      "project_id": "kubernetes-projects-441716",
+      "private_key_id": "",
+      "private_key": "",
+      "client_email": "cs-linkedin-prod-gcs-account@kubernetes-projects-441716.iam.gserviceaccount.com",
+      "client_id": "",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cs-linkedin-prod-gcs-account%40kubernetes-projects-441716.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }

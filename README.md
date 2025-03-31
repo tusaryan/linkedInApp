@@ -1,3 +1,3 @@
 # linkedInApp
- LinkedIn Project
-(Currently on Development)
+ LinkedIn Backend Microservice Project
+* (Will update it soon)

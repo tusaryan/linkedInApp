@@ -1,10 +1,11 @@
 package com.tusaryan.linkedin.posts_service.dto;
 
+import jakarta.persistence.Column;
 import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
 
-//for post response/to return whole post
 @Data
 public class PostDto {
     private Long id;
